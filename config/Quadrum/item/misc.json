@@ -1,0 +1,21 @@
+[
+    {
+        "name": "claim_manager",
+        "texture": "claim_manager",
+        "type": "item",
+        "lore": [
+            "Aids in claim management.",
+            "(Not an actual crowbar)"
+        ],
+        "max-stack-size": 1
+    },
+    {
+        "name": "steel_frame",
+        "texture": "steel_frame",
+        "type": "item",
+        "lore": [
+            "A sturdy base for a machine."
+        ],
+        "max-stack-size": 64
+    }
+]

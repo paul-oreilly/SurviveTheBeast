@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "There are a few different chat channels: global, the default channel, and local. Local only broadcasts to players within 200 blocks. Please use local when possible. You may also whisper players with \u0027/pm \u003cwho\u003e \u003cmessage\u003e\u0027.\n\n[b]Usage[/b]\n(local) \u0027/l \u003cmessage\u003e\u0027\n(global) \u0027/g \u003cmessage\u003e\u0027\n\nThere are a few player ranks: Trusted and Patron. Patron is a donor rank given to our supporters, its perks are cosmetic only. Trusted is automatically given to anyone with 5+ hours of played time. Other ranks like Admin and Mod are for staff members. Staff can help you out if you have an issue, just ping one in chat. Rank colors are as follows:\n",
+        "color": -1,
+        "x": 48,
+        "y": 47,
+        "width": 322,
+        "height": 144,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Chat Basics",
+        "color": -1,
+        "x": 51,
+        "y": 7,
+        "width": 117,
+        "height": 12,
+        "size": 2.5999994
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "New Player",
+        "color": -9404272,
+        "x": 51,
+        "y": 337,
+        "width": 77,
+        "height": 12,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Trusted",
+        "color": -10496,
+        "x": 51,
+        "y": 366,
+        "width": 68,
+        "height": 11,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Patron",
+        "color": -16728065,
+        "x": 51,
+        "y": 395,
+        "width": 78,
+        "height": 12,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Mod",
+        "color": -16776961,
+        "x": 48,
+        "y": 426,
+        "width": 38,
+        "height": 10,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Admin",
+        "color": -5103070,
+        "x": 51,
+        "y": 458,
+        "width": 43,
+        "height": 13,
+        "size": 2.0
+      }
+    }
+  ],
+  "scrollMax": 0,
+  "isPriority": false,
+  "backgroundColor": -301989888,
+  "name": "",
+  "canEdit": false,
+  "saveDir": ""
+}

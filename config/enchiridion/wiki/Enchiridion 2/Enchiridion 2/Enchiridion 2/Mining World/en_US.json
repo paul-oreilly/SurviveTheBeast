@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "We use a mod called TheCorruptedSector to provide a mining world for quarries and other mass mining operations. The world itself is called The Depths. Craft a Glitch Rift (search in NEI), place it, and right click to travel there. Right click on the Glitch Rift again to return from the mining world. If you\u0027ve lost yours, craft another, or jump into a world hole to return to the overworld. Manual mining is perfectly fine in the overworld, nether, and end.",
+        "color": -1,
+        "x": 39,
+        "y": 60,
+        "width": 319,
+        "height": 79,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Mining and You",
+        "color": -1,
+        "x": 39,
+        "y": 9,
+        "width": 113,
+        "height": 16,
+        "size": 2.5999994
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Glitch Rift",
+        "color": -1,
+        "x": 423,
+        "y": 220,
+        "width": 64,
+        "height": 19,
+        "size": 1.8
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Mass mining machines like the quarry have been disabled in the overworld, nether, twilight forest, and end. Nether materials such as glowstone and quartz spawn in the Depths. You can also create RFTools dimensions to mass mine other materials.",
+        "color": -1,
+        "x": 39,
+        "y": 226,
+        "width": 170,
+        "height": 79,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementRecipe",
+      "properties": {
+        "stackSize": 1,
+        "items": [
+          "minecraft:cobblestone",
+          "minecraft:cobblestone",
+          "minecraft:cobblestone",
+          "minecraft:cobblestone",
+          "minecraft:wooden_pickaxe",
+          "minecraft:cobblestone",
+          "minecraft:cobblestone",
+          "minecraft:cobblestone",
+          "minecraft:cobblestone"
+        ],
+        "ores": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "item": "thecorruptedsector:miningPortal",
+        "x": 417,
+        "y": 223,
+        "width": 81,
+        "height": 81,
+        "size": 2.53125
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "The Depths resets every other Friday, so once every two weeks. Be sure to pack up your things beforehand.",
+        "color": -1,
+        "x": 39,
+        "y": 397,
+        "width": 200,
+        "height": 100,
+        "size": 2.0
+      }
+    }
+  ],
+  "scrollMax": 0,
+  "isPriority": false,
+  "backgroundColor": -301989888,
+  "name": "",
+  "canEdit": false,
+  "saveDir": ""
+}

@@ -1,0 +1,126 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]Land Claiming: a Guide[/b]",
+            "wrap": 0,
+            "size": 1.2,
+            "color": "FF000000",
+            "xPos": 38,
+            "yPos": 46,
+            "width": 181.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Quadrum:claim_manager",
+            "xPos": 92,
+            "yPos": 98,
+            "width": 50.0,
+            "height": 50.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You need to claim your land to prevent unwanted access and modifications to your builds by other players. A \u0027claim\u0027 is a region of land defined by a player in which they can use flags and other features to prevent things like building and interaction with blocks. We use a plugin called WorldGuard to facilitate this.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF080000",
+            "xPos": 222,
+            "yPos": 36,
+            "width": 180.0,
+            "height": 85.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[i]Please note that you cannot create a claim within 48 blocks of another player\u0027s claim. Consider this before choosing a place to set up base.[/i]",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF080000",
+            "xPos": 224,
+            "yPos": 134,
+            "width": 176.0,
+            "height": 29.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]Prelude[/b]",
+            "wrap": 0,
+            "size": 1.1,
+            "color": "FF000000",
+            "xPos": 87,
+            "yPos": 32,
+            "width": 49.0,
+            "height": 13.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "land_claiming_a_guide/claimblock.png",
+            "xPos": 47,
+            "yPos": 50,
+            "width": 136.0,
+            "height": 132.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[i]1 claimblock[/i]",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF0000FF",
+            "xPos": 91,
+            "yPos": 185,
+            "width": 77.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "First, a bit of terminology. Land claims are represented by \u0027claimblocks\u0027. A single claimblock represents 1/256th of a chunk, it is a 1 by 1 section of a chunk from y-level 0 to y-level 256. Your initial 4,096 claimblocks (16 chunks worth) are free. Once you claim more than 4,096 claimblocks, you will be charged 1 bit per claimblock (256 bits per chunk). Once your initial balance of claimblocks is spent, there is no way to get them back. You can check your balance with \u0027/freeblocks\u0027. The maximum size of a claim is 32,768 claimblocks, or 128 chunks.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF080000",
+            "xPos": 225,
+            "yPos": 24,
+            "width": 172.0,
+            "height": 162.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "displayNames": {
+    "en_US": "Land Claiming: a Guide"
+  },
+  "uniqueName": "land_claiming_a_guide",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0
+}

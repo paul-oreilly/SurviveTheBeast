@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "The mod RFTools offers Mystcraft-like dimension creation. At the moment, you may create dimensions. Non-chunkloaded dimensions will be periodically deleted to conserve on hard drive space. These rules will probably change in the future.\n\nMystcraft book binders have been disabled.",
+        "color": -1,
+        "x": 33,
+        "y": 45,
+        "width": 328,
+        "height": 62,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Dimlets and You",
+        "color": -1,
+        "x": 36,
+        "y": 1,
+        "width": 142,
+        "height": 14,
+        "size": 2.5999994
+      }
+    }
+  ],
+  "scrollMax": 0,
+  "isPriority": false,
+  "backgroundColor": -301989888,
+  "name": "",
+  "canEdit": false,
+  "saveDir": ""
+}

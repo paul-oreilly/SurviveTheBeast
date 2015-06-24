@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "A Guide to Land Claims",
+        "color": -1,
+        "x": 42,
+        "y": 8,
+        "width": 179,
+        "height": 16,
+        "size": 2.5999994
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "You need to claim your land to prevent unwanted access and modifications to your builds by other players. We use a plugin called WorldGuard to facilitate this. A \u0027claim\u0027 is a word for a region of land defined by a player in which they can use flags to prevent things like building, container use, etc. Claims can be shared by any number of players with varying levels of access.\n        \n[i]Please note that you cannot create a claim within 48 blocks of another player\u0027s claim. Please consider this before choosing a place to set up base.[/i]\n\n[b]Prelude[/b]\nFirst, a bit of terminology. Land claims are represented by \u0027claimblocks\u0027. A single claimblock represents 1/256th of a chunk, it is a 1 by 1 section of a chunk from y-level 0 to y-level 256. Your initial 4,096 claimblocks (16 chunks worth) are free. Once you claim more than 4,096 claimblocks, you will be charged 0.39 bits per claimblock (100 bits per chunk). Once your initial balance of claimblocks is spent, there is no way to get them back. You can check your balance with \u0027/freeblocks\u0027. The maximum size of a claim is 32,768 claimblocks, or 128 chunks.",
+        "color": -1,
+        "x": 42,
+        "y": 56,
+        "width": 323,
+        "height": 207,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementImage",
+      "properties": {
+        "path": "claimblock.png",
+        "x": 492,
+        "y": 488,
+        "width": 100,
+        "height": 100,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "1 claimblock",
+        "color": -1,
+        "x": 534,
+        "y": 469,
+        "width": 68,
+        "height": 16,
+        "size": 1.8
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "[b]Creating a Claim[/b]\nTo begin, craft a \u0027Claim Configurator\u0027. To claim your land, you need to define a region: a square that covers your entire base of operations. Start by clicking on a block outside of your base, this will define the first point. Now right click on a block in the opposite direction, still outside of your base; this will define point two. You now have a square of land selected. Upon creation your selection will be automatically expanded vertically. Once you are happy with your selection use the command \u0027/region claim (some name)\u0027 to create a claim. You are now protected!",
+        "color": -1,
+        "x": 42,
+        "y": 454,
+        "width": 212,
+        "height": 140,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "[b]Adding Members[/b]\nNow that you are protected, you may want to build with a friend. Add them to your claim with \u0027/region addmember (region name) (player name)\u0027 to give them full access. You can play with groups and flags to fine tune access other players have in your claim. WorldGuard is very powerful as it offers a priority and subplot system, but that is out of the scope for this guide. Use \u0027/region ?\u0027 for other region-related commands. Enjoy your protected land!",
+        "color": -1,
+        "x": 324,
+        "y": 744,
+        "width": 183,
+        "height": 130,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "\u003c- 16 blocks -\u003e",
+        "color": -1,
+        "x": 534,
+        "y": 698,
+        "width": 75,
+        "height": 11,
+        "size": 1.4999999
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "(Use your arrow keys to scroll)",
+        "color": -14513374,
+        "x": 360,
+        "y": 6,
+        "width": 158,
+        "height": 50,
+        "size": 1.9
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Claim Configurator",
+        "color": -1,
+        "x": 102,
+        "y": 746,
+        "width": 92,
+        "height": 14,
+        "size": 1.6999999
+      }
+    },
+    {
+      "type": "ElementRecipe",
+      "properties": {
+        "stackSize": 1,
+        "items": [
+          "",
+          "",
+          "minecraft:stick",
+          "",
+          "minecraft:cobblestone",
+          "",
+          "minecraft:stick",
+          "",
+          ""
+        ],
+        "ores": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "item": "Quadrum:claim_manager",
+        "x": 90,
+        "y": 765,
+        "width": 71,
+        "height": 71,
+        "size": 2.21875
+      }
+    }
+  ],
+  "scrollMax": 874,
+  "isPriority": false,
+  "backgroundColor": -301989888,
+  "name": "",
+  "canEdit": false,
+  "saveDir": ""
+}

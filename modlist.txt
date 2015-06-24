@@ -1,22 +1,21 @@
-ae2stuff-0.3.1.33-mc1.7.10.jar
+ae2stuff-0.4.0.38-mc1.7.10.jar
 AgriCraft-1.7.10-1.3.1.jar
 AOBD-2.6.3.jar
 AppleCore-mc1.7.10-1.1.0.jar
-appliedenergistics2-rv2-stable-5.jar
+appliedenergistics2-rv2-stable-9.jar
 Artifice-1.7.10-1.1.5R-396.jar
 AsieLib-1.7.10-0.4.2.jar
-bdlib-1.8.1.87-mc1.7.10.jar
-BetterFps-1.0.0.jar
+bdlib-1.8.2.92-mc1.7.10.jar
 BiblioCraft[v1.10.4][MC1.7.10].jar
 BiblioWoods[Highlands][v1.4].jar
 BigReactors-0.4.3A.jar
-binnie-mods-2.0-pre10.jar
+binnie-mods-2.0-pre12.jar
 BloodMagic-1.7.10-1.3.3-4.jar
-BluePower-1.7.10-0.2.945-universal.jar
-Botania r1.6-191.jar
-buildcraft-7.0.9.jar
+BluePower-1.7.10-0.2.947-universal.jar
+Botania r1.6-194.jar
+buildcraft-7.0.12.jar
 buildcraft-compat-7.0.8.jar
-Carpenter's Blocks v3.3.6 - MC 1.7.10.jar
+Carpenter's Blocks v3.3.7 DEV - MC 1.7.10.jar
 Chisel2-2.3.10.37.jar
 ChiselTones-1.7.10-1.0-1.jar
 CodeChickenCore-1.7.10-1.0.7.46-universal.jar
@@ -31,7 +30,7 @@ DragonAPI 1.7.10 V6f.jar
 Enchiridion 2-1.7.10-2.0d.jar
 EnderIO-1.7.10-2.2.8.381.jar
 EnderStorage-1.7.10-1.4.7.36-universal.jar
-ExtraCells-1.7.10-2.2.71b121.jar
+ExtraCells-1.7.10-2.2.73b129.jar
 ExtraTiC-1.7.10-1.4.5.jar
 extrautilities-1.2.6.jar
 Factorization-1.7.10-0.8.94.jar
@@ -39,38 +38,40 @@ Farseek-1.0.8.jar
 fastcraft-1.21.jar
 FlatSigns-1.7.10-universal-2.1.0.19.jar
 Forbidden Magic-1.7.10-0.562.jar
-forestry_1.7.10-3.6.0.583-unstable.jar
+forestry_1.7.10-3.6.0.603-unstable.jar
 FoxLib-1.7.10-0.7.0.jar
 funky-locomotion-1.7.10-beta-5c.jar
-gendustry-1.4.12.92-mc1.7.10.jar
-HardcoreEnderExpansion  MC-1.7.10  v1.8.jar
+gendustry-1.4.14.99-mc1.7.10.jar
+HardcoreEnderExpansion  MC-1.7.10  v1.8.1.jar
 Hats-4.0.1.jar
 Highlands-1.7.2-v-2.2.3.jar
+HungerOverhaul-1.7.10-1.0.0.jar.disabled
 iChunUtil-4.2.2.jar
 IguanaTinkerTweaks-1.7.10-2.1.5.jar
-ImmersiveEngineering-0.1.9.jar
+ImmersiveEngineering-0.2.3.jar
 immibis-core-59.1.1.jar
 InfiniBows-1.7.10-universal-coremod-1.3.0.20.jar
 INpureCore-[1.7.10]1.0.0B9-62.jar
 InventoryTweaks-1.59-dev-152.jar
 ironchest-1.7.10-6.0.62.742-universal.jar
 Jabba-1.2.1a_1.7.10.jar
+JourneyMap5.0.1_FairPlay_MC1.7.10.jar
 magicbees-1.7.10-2.3.1.jar
 Mantle-1.7.10-0.3.2.jar
-Mekanism-1.7.10-8.1.4.232.jar
-MekanismGenerators-1.7.10-8.1.4.232.jar
+Mekanism-1.7.10-8.1.5.246.jar
+MekanismGenerators-1.7.10-8.1.5.246.jar
 MineFactoryReloaded-[1.7.10]2.8.0-104.jar
 MineTweaker3-1.7.10-3.0.9C.jar
 MmmMmmMmmMmm-1.6.jar
 MobiusCore-1.2.5_1.7.10.jar
-ModTweaker 2-0.8.2.jar
+ModTweaker-2-0.8.3.jar
 natura-1.7.10-2.2.0.1.jar
-neiaddons-1.12.9.32-mc1.7.10.jar
+neiaddons-1.12.10.33-mc1.7.10.jar
 NEIIntegration-MC1.7.10-1.0.10.jar
-NotEnoughItems-1.7.10-1.0.5.110-universal.jar
-NotEnoughResources-1.7.10-0.1.0.95.jar
+NotEnoughItems-1.7.10-1.0.5.111-universal.jar
+NotEnoughResources-1.7.10-0.1.0.101.jar
 OpenBlocks-1.7.10-1.4.3.jar
-OpenComputers-MC1.7.10-1.5.12.26-universal.jar
+OpenComputers-MC1.7.10-1.5.13.27-pre.1-universal.jar
 OpenModsLib-1.7.10-0.7.3.jar
 Opis-1.2.5_1.7.10.jar.disabled
 OptiFine_1.7.10_HD_B7.jar
@@ -82,11 +83,11 @@ Railcraft_1.7.10-9.6.1.0.jar
 ReactorCraft 1.7.10 V6e.jar
 RedstoneArsenal-[1.7.10]1.1.0-83.jar
 Reliquary-1.2.jar
-rftools-3.00.jar
+rftools-3.11beta1.jar
 RotaryCraft 1.7.10 V6f.jar
 ShadowsOfPhysis-1.7.10-0.0.1-48.jar.disbaled
 STBTweaks-1.7.10-1.2.0.jar
-StevesAddons-1.7.10-0.10.12.jar
+StevesAddons-1.7.10-0.10.13.jar
 StevesFactoryManagerA93.jar
 StorageDrawers-1.7.10-1.5.5.jar
 Streams-0.1.4.jar
@@ -100,7 +101,7 @@ ThaumicTinkerer-2.5-1.7.10-164.jar
 TheCorruptedSector-MC1.7.10-1.0.0.jar
 ThermalDynamics-[1.7.10]1.0.0-130.jar
 ThermalExpansion-[1.7.10]4.0.1-182.jar
-ThermalFoundation-[1.7.10]1.0.0-81.jar
+ThermalFoundation-[1.7.10]1.0.0-88.jar
 TiCTooltips-mc1.7.10-1.2.4.jar
 TMechworks-1.7.10-0.2.12.95.jar
 Translocator-1.7.10-1.1.2.15-universal.jar

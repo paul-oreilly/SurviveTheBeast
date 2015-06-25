@@ -18,9 +18,9 @@ buildcraft-compat-7.0.8.jar
 Carpenter's Blocks v3.3.7 DEV - MC 1.7.10.jar
 Chisel2-2.3.10.37.jar
 ChiselTones-1.7.10-1.0-1.jar
+ChromatiCraft 1.7.10 V6f.jar
 CodeChickenCore-1.7.10-1.0.7.46-universal.jar
 CoFHCore-[1.7.10]3.0.2-283.jar
-CompactSolars-1.7.10-4.4.39.315-universal.jar
 Computronics-1.7.10-1.5.3.jar
 CookieCore-1.7.10-1.3.1-9.jar
 dark_menagerie-1.7.10-beta-3.1a.jar
@@ -28,6 +28,7 @@ Decocraft-2.0.2_1.7.10.jar
 denseores-1.6.2.jar
 dimensional-anchor-59.0.3.jar
 DragonAPI 1.7.10 V6f.jar
+ElectriCraft 1.7.10 V6a.jar
 Enchiridion 2-1.7.10-2.0d.jar
 EnderIO-1.7.10-2.2.8.381.jar
 EnderStorage-1.7.10-1.4.7.36-universal.jar
@@ -56,7 +57,7 @@ INpureCore-[1.7.10]1.0.0B9-62.jar
 InventoryTweaks-1.59-dev-152.jar
 ironchest-1.7.10-6.0.62.742-universal.jar
 Jabba-1.2.1a_1.7.10.jar
-JourneyMap5.0.1_FairPlay_MC1.7.10.jar
+JourneyMap5.0.1_FairPlay_MC1.7.10.jar.disabled
 magicbees-1.7.10-2.3.1.jar
 Mantle-1.7.10-0.3.2.jar
 Mekanism-1.7.10-8.1.5.246.jar
@@ -107,8 +108,10 @@ TMechworks-1.7.10-0.2.12.95.jar
 Translocator-1.7.10-1.1.2.15-universal.jar
 TSteelworks-1.7.10-1.1.0-16.jar
 twilightforest-1.7.10-2.3.7.jar
+VoidMonster 1.7.10 V6c.jar
 Waila-1.5.10_1.7.10.jar
 WailaHarvestability-mc1.7.x-1.1.2.jar
 witchery-1.7.10-0.24.1.jar
 WR-CBE-1.7.10-1.4.1.9-universal.jar
+xaeros_minimap_v1.4.9.2_1.7.10_Forge.jar
 Ztones-1.7.10-2.2.1.jar

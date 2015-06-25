@@ -20,6 +20,7 @@ Chisel2-2.3.10.37.jar
 ChiselTones-1.7.10-1.0-1.jar
 CodeChickenCore-1.7.10-1.0.7.46-universal.jar
 CoFHCore-[1.7.10]3.0.2-283.jar
+CompactSolars-1.7.10-4.4.39.315-universal.jar
 Computronics-1.7.10-1.5.3.jar
 CookieCore-1.7.10-1.3.1-9.jar
 dark_menagerie-1.7.10-beta-3.1a.jar
@@ -85,7 +86,6 @@ RedstoneArsenal-[1.7.10]1.1.0-83.jar
 Reliquary-1.2.jar
 rftools-3.11beta1.jar
 RotaryCraft 1.7.10 V6f.jar
-ShadowsOfPhysis-1.7.10-0.0.1-48.jar.disbaled
 STBTweaks-1.7.10-1.2.0.jar
 StevesAddons-1.7.10-0.10.13.jar
 StevesFactoryManagerA93.jar

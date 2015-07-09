@@ -83,3 +83,7 @@ railcraft.keybind.loco.mode
 railcraft.keybind.loco.whistle
 key.control
 enchiridion.key.wiki
+Use Ability
+wecui.keys.toggle
+wecui.keys.clear
+BetterFps

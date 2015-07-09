@@ -323,5 +323,22 @@
         "dimensions": [
             1
         ]
+    },
+	"thorium": {
+        "template": "uniform",
+        "block": {"name": "ReactorCraft:reactorcraft_block_ore", "metadata": 9},
+        "clusterSize": 16,
+        "numClusters": 12,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
     }
 }

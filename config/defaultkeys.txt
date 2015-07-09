@@ -8,7 +8,7 @@ key_key.jump:57
 key_key.sneak:42
 key_key.drop:16
 key_key.inventory:18
-key_key.chat:20
+key_key.chat:28
 key_key.playerlist:15
 key_key.pickItem:-98
 key_key.command:53
@@ -38,6 +38,9 @@ key_key.cinfo:62
 key_key.skillnameleft:203
 key_key.skillnameright:205
 key_key.openCompendium:14
+key_Use Ability:39
+key_wecui.keys.toggle:0
+key_wecui.keys.clear:0
 key_Baubles Inventory:48
 key_Change Wand Focus:33
 key_Activate Hover Harness:44
@@ -83,3 +86,4 @@ key_railcraft.keybind.loco.mode:24
 key_railcraft.keybind.loco.whistle:40
 key_key.control:29
 key_enchiridion.key.wiki:199
+key_BetterFps:88

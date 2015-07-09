@@ -8,19 +8,20 @@ Artifice-1.7.10-1.1.5R-396.jar
 AsieLib-1.7.10-0.4.2.jar
 AuraCascade-504.jar
 bdlib-1.9.0.94-mc1.7.10.jar
+BetterFps-1.0.1.jar
 BiblioCraft[v1.10.4][MC1.7.10].jar
 BiblioWoods[Highlands][v1.4].jar
 BigReactors-0.4.3A.jar
 binnie-mods-2.0-pre13.jar
 BloodMagic-1.7.10-1.3.3-4.jar
 BluePower-1.7.10-0.2.954-universal.jar
-Botania r1.6-198.jar
+Botania r1.7-201.jar
 buildcraft-7.0.13.jar
 buildcraft-compat-7.0.8.jar
 Carpenter's Blocks v3.3.7 DEV - MC 1.7.10.jar
 Chisel2-2.3.10.37.jar
 ChiselTones-1.7.10-1.0-1.jar
-ChromatiCraft 1.7.10 V6f.jar
+ChromatiCraft 1.7.10 V7b.jar
 CodeChickenCore-1.7.10-1.0.7.46-universal.jar
 CoFHCore-[1.7.10]3.0.3B2-294.jar
 Computronics-1.7.10-1.5.5.jar
@@ -30,8 +31,8 @@ Decocraft-2.0.2_1.7.10.jar
 defaultkeys-mc1.7.10-1.0.4.jar
 denseores-1.6.2.jar
 dimensional-anchor-59.0.3.jar
-DragonAPI 1.7.10 V6f.jar
-ElectriCraft 1.7.10 V6a.jar
+DragonAPI 1.7.10 V7b.jar
+ElectriCraft 1.7.10 V7b.jar
 Enchiridion 2-1.7.10-2.0d.jar
 EnderCore-1.7.10-0.0.1.11_alpha.jar
 EnderIO-1.7.10-2.3.0.399_beta.jar
@@ -86,13 +87,13 @@ pressure-1.2.1.108-mc1.7.10.jar
 QmunityLib-1.7.10-0.1.114-universal.jar
 Quadrum-1.7.10-1.2.0-ltsr2.jar
 Railcraft_1.7.10-9.6.1.0.jar
-ReactorCraft 1.7.10 V6e.jar
+ReactorCraft 1.7.10 V7b.jar
 RedstoneArsenal-[1.7.10]1.1.1B1-85.jar
 Reliquary-1.2.jar
 rftools-3.11.jar
-RotaryCraft 1.7.10 V6f.jar
+RotaryCraft 1.7.10 V7b.jar
 SimpleLabels-1.7.10-1.0-5.jar
-STBTweaks-1.7.10-1.2.0.jar
+STBTweaks-1.7.10-1.2.1.jar
 StevesAddons-1.7.10-0.10.13.jar
 StevesFactoryManagerA93.jar
 StorageDrawers-1.7.10-1.5.5.jar
@@ -114,7 +115,7 @@ Translocator-1.7.10-1.1.2.15-universal.jar
 TravellersGear-1.7.10-1.16.5.jar
 TSteelworks-1.7.10-1.1.0-16.jar
 twilightforest-1.7.10-2.3.7.jar
-VoidMonster 1.7.10 V6c.jar
+VoidMonster 1.7.10 V7a.jar
 Waila-1.5.10_1.7.10.jar
 WailaHarvestability-mc1.7.x-1.1.2.jar
 witchery-1.7.10-0.24.1.jar

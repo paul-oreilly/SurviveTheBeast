@@ -42,6 +42,24 @@
             13
         ]
     },
+	"cs_thorium": {
+        "template": "uniform",
+        "block": {"name": "ReactorCraft:reactorcraft_block_ore", "metadata": 9},
+		"material": "minecraft:netherrack",
+        "clusterSize": 12,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            13
+        ]
+    },
     "cs_glowstone": {
         "template": "uniform",
         "block": "minecraft:glowstone",

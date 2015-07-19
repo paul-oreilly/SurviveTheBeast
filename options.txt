@@ -86,14 +86,15 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_Zoom:29
-key_PcktCrft Open (FZ):46
 key_Sprint (FZ):0
+key_PcktCrft Open (FZ):46
 key_key.skills:37
 key_key.cinfo:62
 key_key.skillnameleft:203
 key_key.skillnameright:205
 key_key.openCompendium:14
 key_Use Ability:39
+key_key.binder:40
 key_wecui.keys.toggle:0
 key_wecui.keys.clear:0
 key_Baubles Inventory:48
@@ -108,9 +109,6 @@ key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
 key_ttmisc.toggleArmor:35
-key_Mekanism Item Mode Switch:41
-key_Mekanism Armor Mode Switch:49
-key_Mekanism Voice:221
 key_Glider Toggle:34
 key_Sound Locator:38
 key_Night Vision:25
@@ -121,18 +119,14 @@ key_Yeta Wrench Mode:21
 key_Toggle Electromagnet:0
 key_key.materialCosts:56
 key_key.clipboardPaste:210
+key_Mekanism Item Mode Switch:41
+key_Mekanism Armor Mode Switch:49
+key_Mekanism Voice:221
 key_Show force-loaded chunks:68
 key_invtweaks.key.sort:207
 key_key.craftingGrid:46
 key_TG.keybind.openInv:22
 key_TG.keybind.activeaAbilities:45
-key_gui.xaero_toggle_map:43
-key_gui.xaero_enlarge_map:50
-key_gui.xaero_waypoints_key:26
-key_gui.xaero_zoom_in:13
-key_gui.xaero_zoom_out:12
-key_gui.xaero_minimap_settings:51
-key_gui.xaero_new_waypoint:27
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_railcraft.keybind.loco.faster:52

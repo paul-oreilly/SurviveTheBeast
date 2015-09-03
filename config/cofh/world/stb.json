@@ -22,8 +22,8 @@
         "block": "ThermalFoundation:Ore",
         "clusterSize": 6,
         "numClusters": 4,
-        "minHeight": 50,
-        "maxHeight": 120,
+        "minHeight": 60,
+        "maxHeight": 180,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
@@ -42,6 +42,24 @@
         "numClusters": 6,
         "minHeight": 16,
         "maxHeight": 55,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"tin_surface": {
+        "template": "uniform",
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
+        "clusterSize": 6,
+        "numClusters": 4,
+        "minHeight": 70,
+        "maxHeight": 180,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
@@ -95,13 +113,52 @@
             1
         ]
     },
+	"lead_surface": {
+        "template": "uniform",
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
+        ],
+        "clusterSize": 2,
+        "numClusters": 2,
+        "minHeight": 75,
+        "maxHeight": 95,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
     "nickel": {
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
-        "clusterSize": 6,
+        "clusterSize": 5,
         "numClusters": 2,
         "minHeight": 8,
         "maxHeight": 24,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"nickel_surface": {
+        "template": "uniform",
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 65,
+        "maxHeight": 120,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
@@ -139,7 +196,7 @@
         "template": "uniform",
         "block": {"name": "ImmersiveEngineering:ore", "metadata": 1},
         "clusterSize": 6,
-        "numClusters": 6,
+        "numClusters": 3,
         "minHeight": 24,
         "maxHeight": 60,
         "retrogen": "true",
@@ -157,9 +214,9 @@
         "template": "uniform",
         "block": {"name": "ImmersiveEngineering:ore", "metadata": 1},
         "clusterSize": 3,
-        "numClusters": 3,
-        "minHeight": 50,
-        "maxHeight": 90,
+        "numClusters": 6,
+        "minHeight": 60,
+        "maxHeight": 180,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
@@ -186,8 +243,8 @@
         ],
         "clusterSize": 3,
         "numClusters": 8,
-        "minHeight": 8,
-        "maxHeight": 128,
+        "minHeight": 16,
+        "maxHeight": 256,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
@@ -206,6 +263,24 @@
         "numClusters": 2,
         "minHeight": 0,
         "maxHeight": 24,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"pitchblende_surface": {
+        "template": "uniform",
+        "block": {"name": "ReactorCraft:reactorcraft_block_ore", "metadata": 1},
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 60,
+        "maxHeight": 180,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
@@ -257,9 +332,9 @@
         "template": "uniform",
         "block": {"name": "ReactorCraft:reactorcraft_block_ore", "metadata": 7},
         "clusterSize": 4,
-        "numClusters": 2,
-        "minHeight": 24,
-        "maxHeight": 50,
+        "numClusters": 4,
+        "minHeight": 16,
+        "maxHeight": 95,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
@@ -295,7 +370,7 @@
         "clusterSize": 12,
         "numClusters": 15,
         "minHeight": 50,
-        "maxHeight": 128,
+        "maxHeight": 256,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [

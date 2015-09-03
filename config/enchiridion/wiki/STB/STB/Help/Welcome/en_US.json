@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Welcome to Survive The Beast \"Devil\u0027s Playground\"! Plase have a look at the different sections in this menu to familiarize yourself with the server\u0027s rules and innerworkings.\n\nVisit our website at http://survivorserver.com/\n",
+        "color": -1,
+        "x": 46,
+        "y": 306,
+        "width": 313,
+        "height": 76,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementImage",
+      "properties": {
+        "path": "example2.png",
+        "x": 15,
+        "y": 8,
+        "width": 352,
+        "height": 135,
+        "size": 2.0
+      }
+    }
+  ],
+  "scrollMax": 0,
+  "isPriority": true,
+  "backgroundColor": -301989888,
+  "name": "",
+  "canEdit": false,
+  "saveDir": ""
+}

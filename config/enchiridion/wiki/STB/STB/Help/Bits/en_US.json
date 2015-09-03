@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "We have a global trading system and a currency based on steel called 'bits'. Use \u0027/market listings\u0027 to browse the Market and manage your balance. Use \u0027/market ?\u0027 for other Market-related commands and \u0027/money\u0027 to check your balance.",
+        "color": -1,
+        "x": 39,
+        "y": 59,
+        "width": 322,
+        "height": 91,
+        "size": 2.0
+      }
+    },
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "The Economy",
+        "color": -1,
+        "x": 36,
+        "y": 12,
+        "width": 111,
+        "height": 22,
+        "size": 2.5999994
+      }
+    }
+  ],
+  "scrollMax": 0,
+  "isPriority": false,
+  "backgroundColor": -301989888,
+  "name": "",
+  "canEdit": false,
+  "saveDir": ""
+}

@@ -10,12 +10,21 @@
         "max-stack-size": 1
     },
     {
-        "name": "steel_frame",
-        "texture": "steel_frame",
+        "name": "bedrockium_component",
+        "texture": "bedrockium_component",
         "type": "item",
-        "lore": [
-            "A sturdy base for a machine."
-        ],
+        "max-stack-size": 64
+    },
+	{
+        "name": "bedrockium_chipset",
+        "texture": "bedrockium_chipset",
+        "type": "item",
+        "max-stack-size": 64
+    },
+	{
+        "name": "enderium_crystal",
+        "texture": "enderium_crystal",
+        "type": "item",
         "max-stack-size": 64
     }
 ]

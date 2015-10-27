@@ -1,5 +1,5 @@
 ae2stuff-0.4.3.47-mc1.7.10.jar
-AOBD-2.8.2.jar
+AOBD-2.8.4.jar
 AppleCore-mc1.7.10-1.1.0.jar
 AppleCore-mc1.7.10-1.2.1.jar.minecrift
 appliedenergistics2-rv2-stable-10.jar
@@ -30,8 +30,8 @@ denseores-1.6.2.jar
 DragonAPI 1.7.10 V8c.jar
 ElecCore-1.7.10-1.4.141.jar
 Enchiridion 2-1.7.10-2.0.2a.jar
-EnderCore-1.7.10-0.1.0.23_beta.jar
-EnderIO-1.7.10-2.3.0.412_beta.jar
+EnderCore-1.7.10-0.1.0.24_beta.jar
+EnderIO-1.7.10-2.3.0.415_beta.jar
 EnderStorage-1.7.10-1.4.7.36-universal.jar
 EnderTech-1.7.10-0.3.2.388.jar
 Et Futurum-1.3.2.jar
@@ -61,7 +61,7 @@ IvToolkit-1.2.jar
 Jabba-1.2.1a_1.7.10.jar
 JourneyMap5.0.1_FairPlay_MC1.7.10.jar
 magicbees-1.7.10-2.3.4.jar
-magneticraft-0.3.4.jar
+magneticraft-0.5.0.jar
 Mantle-1.7.10-0.3.2.jar
 mcjtylib-1.3.0.jar
 Mekanism-1.7.10-8.1.7.252.jar
@@ -97,7 +97,7 @@ RotaryCraft 1.7.10 V8c.jar
 RWG-alpha-1.3.2.jar
 SimpleLabels-1.7.10-1.0-5.jar
 SpiceOfLife-mc1.7.10-1.2.4.jar
-STBTweaks-1.7.10-1.4.0.jar
+STBTweaks-1.7.10-1.5.2.jar
 Tails-1.7.10-1.3.1.jar
 TConstruct-1.7.10-1.8.6b.jar
 Thaumcraft-1.7.10-4.2.3.5.jar
@@ -119,3 +119,4 @@ Waila-1.5.10_1.7.10.jar
 WailaHarvestability-mc1.7.x-1.1.2.jar
 witchery-1.7.10-0.24.1.jar
 Ztones-1.7.10-2.2.1.jar
+[1.7.10]StartingInventory-universal-1.7.10.r03.jar

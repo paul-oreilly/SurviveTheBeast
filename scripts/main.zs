@@ -1,6 +1,18 @@
 <ore:itemBedrock>.add(<ExtraUtilities:bedrockiumIngot>);
 <ore:itemBedrock>.add(<RotaryCraft:rotarycraft_item_compacts:3>);
 
+recipes.remove(<minecraft:fence>);
+recipes.removeShaped(<minecraft:fence>, [
+    [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
+    [null, null, null]
+]);
+recipes.addShaped(<minecraft:fence> * 8, [
+    [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
+    [null, null, null]
+]);
+
 // BuildCraft
 recipes.remove(<BuildCraft|Builders:machineBlock:0>);
 recipes.addShaped(<BuildCraft|Builders:machineBlock:0>, [
@@ -286,6 +298,12 @@ recipes.addShaped(<ImmersiveEngineering:material:12>, [
     [<Railcraft:part.plate:3>, <Railcraft:part.plate:3>, <Railcraft:part.plate:3>],
     [<Railcraft:part.plate:1>, null, <Railcraft:part.plate:1>]
 ]);
+recipes.remove(<ImmersiveEngineering:tool>);
+recipes.addShaped(<ImmersiveEngineering:tool>, [
+    [null, <ore:ingotIron>, <ore:string>],
+    [null, <ore:stickWood>, <ore:ingotIron>],
+    [<ore:stickWood>, null, null]
+]);
 
 // ReactorCraft
 <ore:oreUranium>.add(<ReactorCraft:reactorcraft_block_ore:1>);
@@ -348,4 +366,35 @@ recipes.addShaped(<OpenComputers:item:62>, [
     [<Quadrum:bedrockium_component>, <ore:glass>, <Quadrum:bedrockium_component>],
     [<ore:oc:circuitChip3>, <Quadrum:enderium_crystal>, <ore:oc:circuitChip3>],
     [<ore:obsidian>, <OpenComputers:item:32>, <ore:obsidian>]
+]);
+
+// Natura
+<ore:string>.add(<minecraft:string>);
+<ore:string>.add(<Natura:barleyFood:7>);
+
+// RotaryCraft
+<ore:dustAluminium>.add(<TConstruct:materials:40>);
+<ore:dustAluminium>.add(<RotaryCraft:rotarycraft_item_powders:8>);
+<ore:dustAluminum>.add(<RotaryCraft:rotarycraft_item_powders:8>);
+
+recipes.remove(<RotaryCraft:rotarycraft_item_machine:45>);
+recipes.addShaped(<RotaryCraft:rotarycraft_item_machine:45>, [
+    [<ore:bricksStone>, <ore:ingotSteel>, <ore:bricksStone>],
+    [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>],
+    [<ore:bricksStone>, <ore:ingotSteel>, <ore:bricksStone>]
+]);
+<ore:fuelCoke>.add(<RotaryCraft:rotarycraft_item_compacts:8>);
+
+recipes.remove(<ExtraUtilities:unstableingot>.withTag({"Bug":"1b"}));
+recipes.addShaped(<ExtraUtilities:unstableingot>.withTag({"unstable":"1b"}), [
+    [null, <ore:ingotIron>, null],
+    [null, <ExtraUtilities:divisionSigil>.withTag({"damage":256}), null],
+    [null, <ore:gemDiamond>, null]
+]);
+
+// STBTweaks
+recipes.addShaped(<STBTweaks:obelisk>, [
+    [<ImmersiveEngineering:material:12>, <appliedenergistics2:item.ItemMultiMaterial:38>, <ImmersiveEngineering:material:12>],
+    [<EnderIO:blockCapBank:3>, <ThermalExpansion:Tesseract>, <EnderIO:blockCapBank:3>],
+    [<ImmersiveEngineering:material:12>, <extracells:storage.component:7>, <ImmersiveEngineering:material:12>]
 ]);

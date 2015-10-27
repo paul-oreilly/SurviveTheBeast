@@ -1,0 +1,102 @@
+{"activeResources":
+[
+	{
+		"resourceId":"16384k ME Storage Component",
+		"identifiers":
+		[
+			"extracells:storage.physical:3"
+		],
+		"amount":500
+	},
+	{
+		"resourceId":"Octuple Compressed Cobblestone",
+		"identifiers":
+		[
+			"ExtraUtilities:cobblestone_compressed:7"
+		],
+		"amount":700
+	},
+	{
+		"resourceId":"Nether Star",
+		"identifiers":
+		[
+			"minecraft:nether_star:0"
+		],
+		"amount":1000
+	},
+	{
+		"resourceId":"Elementium Ingot",
+		"identifiers":
+		[
+			"Botania:manaResource:7"
+		],
+		"amount":10000
+	},
+	{
+		"resourceId":"Chocolate Sprinkles Cake",
+		"identifiers":
+		[
+			"harvestcraft:chocolatesprinklecakeItem:0"
+		],
+		"amount":300000
+	},
+	{
+		"resourceId":"Diamond Spike",
+		"identifiers":
+		[
+			"ExtraUtilities:spike_base_diamond:0"
+		],
+		"amount":500000
+	},
+	{
+		"resourceId":"Steel Mechanical Component",
+		"identifiers":
+		[
+			"ImmersiveEngineering:material:12"
+		],
+		"amount":1000000
+	},
+	{
+		"resourceId":"Turbine Housing",
+		"identifiers":
+		[
+			"BigReactors:BRTurbinePart:0"
+		],
+		"amount":5000000
+	},
+	{
+		"resourceId":"Iron Ingot",
+		"identifiers":
+		[
+			"minecraft:iron_ingot:0"
+		],
+		"amount":10000000
+	},
+	{
+		"resourceId":"Gelid Cryotheum",
+		"identifiers":
+		[
+			"fluid:cryotheum:0"
+		],
+		"amount":250000000
+	},
+	{
+		"resourceId":"Jet/Rocket Fuel",
+		"identifiers":
+		[
+			"fluid:rocket_fuel:0",
+			"fluid:jet fuel:0"
+		],
+		"amount":500000000
+	},
+	{
+		"resourceId":"Honey",
+		"identifiers":
+		[
+			"fluid:honey:0",
+			"fluid:for.honey:0"
+		],
+		"amount":950000000
+	}
+]
+,"resourceProgress":{},"optOut":[],"completed":[],"ended":false}

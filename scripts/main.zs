@@ -1,6 +1,7 @@
 <ore:itemBedrock>.add(<ExtraUtilities:bedrockiumIngot>);
 <ore:itemBedrock>.add(<RotaryCraft:rotarycraft_item_compacts:3>);
 
+// Fence fixes?
 recipes.remove(<minecraft:fence>);
 recipes.removeShaped(<minecraft:fence>, [
     [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
@@ -92,10 +93,10 @@ recipes.remove(<Mekanism:PartTransmitter>);
 recipes.remove(<Mekanism:PartTransmitter:1>);
 recipes.remove(<Mekanism:PartTransmitter:2>);
 recipes.remove(<Mekanism:PartTransmitter:3>);
-/*mods.nei.NEI.hide(<Mekanism:PartTransmitter>);
+mods.nei.NEI.hide(<Mekanism:PartTransmitter>);
 mods.nei.NEI.hide(<Mekanism:PartTransmitter:1>);
 mods.nei.NEI.hide(<Mekanism:PartTransmitter:2>);
-mods.nei.NEI.hide(<Mekanism:PartTransmitter:3>);*/
+mods.nei.NEI.hide(<Mekanism:PartTransmitter:3>);
 recipes.remove(<Mekanism:TeleportationCore>);
 recipes.addShaped(<Mekanism:TeleportationCore>, [
     [<ore:gearEnderium>, <ore:alloyUltimate>, <ore:gearEnderium>],
@@ -241,6 +242,7 @@ recipes.addShaped(<BigReactors:BRTurbinePart> * 4, [
     [<ore:ingotAluminum>, <ore:blockAluminum>, <ore:ingotAluminum>],
     [<ore:ingotSteel>, <ore:ingotAluminum>, <ore:ingotSteel>]
 ]);
+mods.gregtech.Assembler.addRecipe(<BigReactors:BRTurbinePart> * 6, <gregtech:gt.metaitem.01:32651> * 0, <ImmersiveEngineering:storage:1> * 2, null, 400, 128);
 recipes.remove(<BigReactors:BRTurbinePart:1>);
 recipes.addShaped(<BigReactors:BRTurbinePart:1>, [
     [<BigReactors:BRTurbinePart>, <ore:ingotEnderium>, <BigReactors:BRTurbinePart>],
@@ -287,17 +289,23 @@ recipes.addShaped(<Quadrum:bedrockium_component>, [
     [<ImmersiveEngineering:material:12>, <Quadrum:bedrockium_chipset>, <ImmersiveEngineering:material:12>],
     [null, <ImmersiveEngineering:material:12>, null]
 ]);
+mods.gregtech.Assembler.addRecipe(<Quadrum:bedrockium_component> * 4, <Quadrum:bedrockium_chipset>, <ImmersiveEngineering:material:12> * 2, <liquid:ender> * 400, 1200, 512);
 mods.buildcraft.AssemblyTable.addRecipe(<Quadrum:bedrockium_chipset>, 10000000, [<ore:ingotEnderium>, <ore:itemBedrock>, <ore:ingotEnderium>]);
+// TODO: Ore dict? Might be automatic
+mods.gregtech.FormingPress.addRecipe(<Quadrum:bedrockium_chipset> * 2, <ThermalFoundation:material:76>, <ExtraUtilities:bedrockiumIngot>, 1200, 512);
 mods.buildcraft.AssemblyTable.addRecipe(<Quadrum:enderium_crystal>, 500000000, [<ore:blockEnderium>]);
+mods.gregtech.PrecisionLaser.addRecipe(<Quadrum:enderium_crystal>, <gregtech:gt.metaitem.01:24500> * 0, <ThermalFoundation:Storage:12>, 2400, 512);
 
 // ImmersiveEngineering
 <ore:oreAluminium>.add(<ImmersiveEngineering:ore:1>);
 recipes.remove(<ImmersiveEngineering:material:12>);
 recipes.addShaped(<ImmersiveEngineering:material:12>, [
-    [<Railcraft:part.plate:1>, null, <Railcraft:part.plate:1>],
-    [<Railcraft:part.plate:3>, <Railcraft:part.plate:3>, <Railcraft:part.plate:3>],
-    [<Railcraft:part.plate:1>, null, <Railcraft:part.plate:1>]
+    [<ore:plateSteel>, null, <ore:plateSteel>],
+    [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],
+    [<ore:plateSteel>, null, <ore:plateSteel>]
 ]);
+// TODO: Ore dict? Might be automatic
+mods.gregtech.Assembler.addRecipe(<ImmersiveEngineering:material:12> * 4, <Railcraft:part.plate:1> * 2, <Railcraft:part.plate:3> * 2, null, 800, 32);
 recipes.remove(<ImmersiveEngineering:tool>);
 recipes.addShaped(<ImmersiveEngineering:tool>, [
     [null, <ore:ingotIron>, <ore:string>],
@@ -308,21 +316,6 @@ recipes.addShaped(<ImmersiveEngineering:tool>, [
 // ReactorCraft
 <ore:oreUranium>.add(<ReactorCraft:reactorcraft_block_ore:1>);
 <ore:oreUranium>.add(<ReactorCraft:reactorcraft_block_ore:5>);
-
-// IC2
-furnace.remove(<IC2:item.itemIngotAdvIron>);
-mods.thermalexpansion.Furnace.removeRecipe(<ore:ingotIron>);
-mods.nei.NEI.hide(<IC2:item.itemIngotAdvIron>);
-<ore:ingotRefinedIron>.add(<ImmersiveEngineering:metal:7>);
-<ore:ingotRefinedIron>.add(<Mekanism:Ingot:4>);
-<ore:ingotRefinedIron>.add(<Railcraft:ingot:0>);
-<ore:ingotRefinedIron>.add(<TConstruct:materials:16>);
-recipes.remove(<IC2:blockMachine:0>);
-recipes.addShaped(<IC2:blockMachine:0>, [
-    [<ore:ingotAluminum>, <ore:chipsetIron>, <ore:ingotAluminum>],
-    [<ImmersiveEngineering:material:12>, <IC2:item.itemToolWrench:*>.transformDamage(1), <ImmersiveEngineering:material:12>],
-    [<ore:ingotAluminum>, <ore:chipsetIron>, <ore:ingotAluminum>]
-]);
 
 // Magneticraft
 recipes.remove(<Magneticraft:machine_housing>);
@@ -376,7 +369,6 @@ recipes.addShaped(<OpenComputers:item:62>, [
 <ore:dustAluminium>.add(<TConstruct:materials:40>);
 <ore:dustAluminium>.add(<RotaryCraft:rotarycraft_item_powders:8>);
 <ore:dustAluminum>.add(<RotaryCraft:rotarycraft_item_powders:8>);
-
 recipes.remove(<RotaryCraft:rotarycraft_item_machine:45>);
 recipes.addShaped(<RotaryCraft:rotarycraft_item_machine:45>, [
     [<ore:bricksStone>, <ore:ingotSteel>, <ore:bricksStone>],
@@ -385,16 +377,20 @@ recipes.addShaped(<RotaryCraft:rotarycraft_item_machine:45>, [
 ]);
 <ore:fuelCoke>.add(<RotaryCraft:rotarycraft_item_compacts:8>);
 
-recipes.remove(<ExtraUtilities:unstableingot>.withTag({"Bug":"1b"}));
-recipes.addShaped(<ExtraUtilities:unstableingot>.withTag({"unstable":"1b"}), [
-    [null, <ore:ingotIron>, null],
-    [null, <ExtraUtilities:divisionSigil>.withTag({"damage":256}), null],
-    [null, <ore:gemDiamond>, null]
-]);
-
 // STBTweaks
 recipes.addShaped(<STBTweaks:obelisk>, [
     [<ImmersiveEngineering:material:12>, <appliedenergistics2:item.ItemMultiMaterial:38>, <ImmersiveEngineering:material:12>],
     [<EnderIO:blockCapBank:3>, <ThermalExpansion:Tesseract>, <EnderIO:blockCapBank:3>],
     [<ImmersiveEngineering:material:12>, <extracells:storage.component:7>, <ImmersiveEngineering:material:12>]
 ]);
+
+// ExU
+mods.gregtech.Assembler.addRecipe(<ExtraUtilities:spike_base_diamond> * 12, <ExtraUtilities:spike_base_gold> * 3, <minecraft:diamond_block> * 2, null, 400, 128);
+mods.gregtech.ImplosionCompressor.addRecipe([<ExtraUtilities:cobblestone_compressed> * 18], <minecraft:cobblestone> * 9, 16);
+mods.gregtech.ImplosionCompressor.addRecipe([<ExtraUtilities:cobblestone_compressed:1> * 18], <ExtraUtilities:cobblestone_compressed> * 9, 24);
+mods.gregtech.ImplosionCompressor.addRecipe([<ExtraUtilities:cobblestone_compressed:2> * 18], <ExtraUtilities:cobblestone_compressed:1> * 9, 32);
+mods.gregtech.ImplosionCompressor.addRecipe([<ExtraUtilities:cobblestone_compressed:3> * 18], <ExtraUtilities:cobblestone_compressed:2> * 9, 40);
+mods.gregtech.ImplosionCompressor.addRecipe([<ExtraUtilities:cobblestone_compressed:4> * 18], <ExtraUtilities:cobblestone_compressed:3> * 9, 48);
+mods.gregtech.ImplosionCompressor.addRecipe([<ExtraUtilities:cobblestone_compressed:5> * 18], <ExtraUtilities:cobblestone_compressed:4> * 9, 48);
+mods.gregtech.ImplosionCompressor.addRecipe([<ExtraUtilities:cobblestone_compressed:6> * 18], <ExtraUtilities:cobblestone_compressed:5> * 9, 56);
+mods.gregtech.ImplosionCompressor.addRecipe([<ExtraUtilities:cobblestone_compressed:7> * 18], <ExtraUtilities:cobblestone_compressed:6> * 9, 64);

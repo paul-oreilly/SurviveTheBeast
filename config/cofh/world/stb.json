@@ -2,7 +2,7 @@
     "copper": {
         "template": "uniform",
         "block": "ThermalFoundation:Ore",
-        "clusterSize": 8,
+        "clusterSize": 6,
         "numClusters": 5,
         "minHeight": 35,
         "maxHeight": 60,
@@ -195,7 +195,7 @@
     "bauxite": {
         "template": "uniform",
         "block": {"name": "ImmersiveEngineering:ore", "metadata": 1},
-        "clusterSize": 6,
+        "clusterSize": 8,
         "numClusters": 3,
         "minHeight": 24,
         "maxHeight": 60,
@@ -387,23 +387,6 @@
         "block": {"name": "ReactorCraft:reactorcraft_block_ore", "metadata": 6},
         "clusterSize": 12,
         "numClusters": 8,
-        "minHeight": 0,
-        "maxHeight": 128,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            1
-        ]
-    },
-	"thorium": {
-        "template": "uniform",
-        "block": {"name": "ReactorCraft:reactorcraft_block_ore", "metadata": 9},
-        "clusterSize": 16,
-        "numClusters": 12,
         "minHeight": 0,
         "maxHeight": 128,
         "retrogen": "true",

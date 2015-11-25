@@ -1,7 +1,7 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:12
 guiScale:3
@@ -14,9 +14,9 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-clouds:false
+clouds:true
 resourcePacks:[]
-lastServer:
+lastServer:mc.survivorserver.com:25540
 lang:en_US
 chatVisibility:0
 chatColors:true
@@ -38,7 +38,7 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
-showInventoryAchievementHint:false
+showInventoryAchievementHint:true
 mipmapLevels:4
 anisotropicFiltering:1
 streamBytesPerPixel:0.5
@@ -86,15 +86,15 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_Zoom:29
-key_Sprint (FZ):0
-key_PcktCrft Open (FZ):46
-key_key.skills:37
-key_key.cinfo:62
-key_key.skillnameleft:203
-key_key.skillnameright:205
 key_key.openCompendium:14
-key_Use Ability:39
+key_ALT Key:56
+key_Boost Key:29
+key_Mode Switch Key:50
+key_Side Inventory Key:46
+key_IC2 Hub Expand Key:45
 key_key.binder:40
+key_Tool Increase:201
+key_Tool Decrease:209
 key_wecui.keys.toggle:0
 key_wecui.keys.clear:0
 key_Baubles Inventory:48
@@ -108,13 +108,13 @@ key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
-key_ttmisc.toggleArmor:35
 key_Glider Toggle:34
 key_Sound Locator:38
 key_Night Vision:25
 key_Goggles of Revealing:19
 key_Step Assist:0
 key_Speed:0
+key_Jump:0
 key_Yeta Wrench Mode:21
 key_Toggle Electromagnet:0
 key_key.materialCosts:56
@@ -122,8 +122,12 @@ key_key.clipboardPaste:210
 key_Mekanism Item Mode Switch:41
 key_Mekanism Armor Mode Switch:49
 key_Mekanism Voice:221
-key_Show force-loaded chunks:68
+key_ttmisc.toggleArmor:35
 key_invtweaks.key.sort:207
+key_Change Arcane Lens:47
+key_Activate Morphic Fingers:49
+key_Toggle Spider Climb:46
+key_Toggle Chameleon Skin:45
 key_key.craftingGrid:46
 key_TG.keybind.openInv:22
 key_TG.keybind.activeaAbilities:45
@@ -135,13 +139,19 @@ key_railcraft.keybind.loco.mode:24
 key_railcraft.keybind.loco.whistle:40
 key_key.control:29
 key_enchiridion.key.wiki:199
-key_BetterFps:88
-soundCategory_master:0.80794704
+key_key.journeymap.map_toggle:36
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.day:26
+key_key.journeymap.night:27
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.0
-soundCategory_block:1.0
-soundCategory_hostile:0.4084507
-soundCategory_neutral:0.5070422
+soundCategory_block:0.5
+soundCategory_hostile:0.1056338
+soundCategory_neutral:0.0
 soundCategory_player:1.0
-soundCategory_ambient:0.80985916
+soundCategory_ambient:0.8028169

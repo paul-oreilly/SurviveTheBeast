@@ -786,3 +786,7 @@ mods.agricraft.SeedMutation.remove(<AgriCraft:seedPetinia>);
 mods.agricraft.SeedMutation.remove(<AgriCraft:seedPlombean>);
 mods.agricraft.SeedMutation.remove(<AgriCraft:seedPlatiolus>);
 mods.agricraft.SeedMutation.remove(<AgriCraft:seedOsmonium>);
+
+// Alt method to get mobis stable ingots for extra utilities 
+recipes.addShaped(<ExtraUtilities:unstableingot:2>,[[null, <ExtraUtilities:unstableingot:1>,null],[<ExtraUtilities:unstableingot:1>,<minecraft:nether_star>,<ExtraUtilities:unstableingot:1>],[null,<ExtraUtilities:unstableingot:1>,null]]);
+ 

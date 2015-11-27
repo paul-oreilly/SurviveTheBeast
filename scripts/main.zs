@@ -787,6 +787,7 @@ mods.agricraft.SeedMutation.remove(<AgriCraft:seedPlombean>);
 mods.agricraft.SeedMutation.remove(<AgriCraft:seedPlatiolus>);
 mods.agricraft.SeedMutation.remove(<AgriCraft:seedOsmonium>);
 
+<<<<<<< HEAD
 // Thaumcraft - minor workaround to convert any shard to it's thaumcraft specific type
 recipes.addShapeless(<Thaumcraft:ItemShard:0>, [<ore:shardAir>]);
 recipes.addShapeless(<Thaumcraft:ItemShard:1>, [<ore:shardFire>]);
@@ -796,3 +797,8 @@ recipes.addShapeless(<Thaumcraft:ItemShard:4>, [<ore:shardOrder>]);
 recipes.addShapeless(<Thaumcraft:ItemShard:5>, [<ore:shardEntropy>]);
 
 
+=======
+// Alt method to get mobis stable ingots for extra utilities 
+recipes.addShaped(<ExtraUtilities:unstableingot:2>,[[null, <ExtraUtilities:unstableingot:1>,null],[<ExtraUtilities:unstableingot:1>,<minecraft:nether_star>,<ExtraUtilities:unstableingot:1>],[null,<ExtraUtilities:unstableingot:1>,null]]);
+ 
+>>>>>>> refs/remotes/origin/master

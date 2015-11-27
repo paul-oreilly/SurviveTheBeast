@@ -788,11 +788,11 @@ mods.agricraft.SeedMutation.remove(<AgriCraft:seedPlatiolus>);
 mods.agricraft.SeedMutation.remove(<AgriCraft:seedOsmonium>);
 
 // Thaumcraft - minor workaround to convert any shard to it's thaumcraft specific type
-recipes.addShapless(<Thaumcraft:ItemShard:0>, [<ore:shardAir>];
-recipes.addShapless(<Thaumcraft:ItemShard:1>, [<ore:shardFire>];
-recipes.addShapless(<Thaumcraft:ItemShard:2>, [<ore:shardWater>];
-recipes.addShapless(<Thaumcraft:ItemShard:3>, [<ore:shardEarth>];
-recipes.addShapless(<Thaumcraft:ItemShard:4>, [<ore:shardOrder>];
-recipes.addShapless(<Thaumcraft:ItemShard:5>, [<ore:shardEntropy>];
+recipes.addShapeless(<Thaumcraft:ItemShard:0>, [<ore:shardAir>]);
+recipes.addShapeless(<Thaumcraft:ItemShard:1>, [<ore:shardFire>]);
+recipes.addShapeless(<Thaumcraft:ItemShard:2>, [<ore:shardWater>]);
+recipes.addShapeless(<Thaumcraft:ItemShard:3>, [<ore:shardEarth>]);
+recipes.addShapeless(<Thaumcraft:ItemShard:4>, [<ore:shardOrder>]);
+recipes.addShapeless(<Thaumcraft:ItemShard:5>, [<ore:shardEntropy>]);
 
 

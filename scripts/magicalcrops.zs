@@ -1,0 +1,2 @@
+// Magical crops rotten flesh recipe
+recipes.addShapeless(<minecraft:rotten_flesh>, [<magicalcrops:EarthEssence>,<magicalcrops:EarthEssence>,<magicalcrops:NatureEssence>,<magicalcrops:NatureEssence>]);

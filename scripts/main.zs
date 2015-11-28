@@ -797,3 +797,6 @@ recipes.addShapeless(<Thaumcraft:ItemShard:5>, [<ore:shardEntropy>]);
 
 // Alt method to get mobis stable ingots for extra utilities 
 recipes.addShaped(<ExtraUtilities:unstableingot:2>,[[null, <ExtraUtilities:unstableingot:1>,null],[<ExtraUtilities:unstableingot:1>,<minecraft:nether_star>,<ExtraUtilities:unstableingot:1>],[null,<ExtraUtilities:unstableingot:1>,null]]);
+
+// Magical crops rotten flesh recipe
+recipes.addShapeless(<minecraft:rotten_flesh>, [<magicalcrops:EarthEssence>,<magicalcrops:EarthEssence>,<magicalcrops:NatureEssence>,<magicalcrops:NatureEssence>]);

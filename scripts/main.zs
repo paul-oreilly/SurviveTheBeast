@@ -797,3 +797,8 @@ recipes.addShapeless(<Thaumcraft:ItemShard:5>, [<ore:shardEntropy>]);
 
 // Alt method to get mobis stable ingots for extra utilities 
 recipes.addShaped(<ExtraUtilities:unstableingot:2>,[[null, <ExtraUtilities:unstableingot:1>,null],[<ExtraUtilities:unstableingot:1>,<minecraft:nether_star>,<ExtraUtilities:unstableingot:1>],[null,<ExtraUtilities:unstableingot:1>,null]]);
+
+// Tinkers moss ball fix (9 moss stone currently create compressed cobble)
+recipes.removeShaped(<TConstruct:materials:6>);
+recipes.removeShapeless(<TConstruct:materials:6>);
+recipes.addShaped(<TConstruct:materials:6>,[[null,<minecraft:mossy_cobblestone>,null],[<minecraft:mossy_cobblestone>,<minecraft:mossy_cobblestone>,<minecraft:mossy_cobblestone>],[null,<minecraft:mossy_cobblestone>,null]]);

@@ -804,6 +804,9 @@ recipes.addShapeless(<Thaumcraft:ItemShard:5>, [<ore:shardEntropy>]);
 // Alt method to get mobis stable ingots for extra utilities 
 recipes.addShaped(<ExtraUtilities:unstableingot:2>,[[null, <ExtraUtilities:unstableingot:1>,null],[<ExtraUtilities:unstableingot:1>,<minecraft:nether_star>,<ExtraUtilities:unstableingot:1>],[null,<ExtraUtilities:unstableingot:1>,null]]);
 
+// Koboldite - needed for end game & witchery, not obtainable due to mobs being far too laggy
+recipes.addShaped(<witchery:ingredient:150>,[[<magicalcrops:3CrucioEssence>,<magicalcrops:EarthEssence>,<magicalcrops:3CrucioEssence>],[<magicalcrops:NatureEssence>,<minecraft:iron_ingot>,<magicalcrops:NatureEssence>],[<magicalcrops:3CrucioEssence>,<magicalcrops:EarthEssence>,<magicalcrops:3CrucioEssence>]]);
+
 // Tinkers moss ball fix (9 moss stone currently create compressed cobble)
 recipes.removeShaped(<TConstruct:materials:6>);
 recipes.removeShapeless(<TConstruct:materials:6>);

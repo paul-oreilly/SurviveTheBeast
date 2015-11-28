@@ -96,6 +96,12 @@ recipes.addShaped(<rftools:machineFrame:0>, [
 recipes.remove(<rftools:machineBase:0>);
 recipes.addShapeless(<rftools:machineBase:0> * 4, [<rftools:machineFrame:0>]);
 
+// RFTools - Require that building a quarry shape for builder takes a buildcraft quarry to do
+recipes.remove(<rftools:shapeCardItem:2>);
+recipes.addShaped(<rftools:shapeCardItem:2>, [[<BuildCraft|Core:markerBlock>,<minecraft:redstone>,<BuildCraft|Core:markerBlock>],[<minecraft:redstone>,<BuildCraft|Builders:machineBlock:0>,<minecraft:redstone>],[<BuildCraft|Core:markerBlock>,<minecraft:redstone>,<BuildCraft|Core:markerBlock>]]);
+recipes.addShaped(<rftools:shapeCardItem:2>, [[<minecraft:dirt>,<minecraft:dirt>,<minecraft:dirt>],[<minecraft:dirt>,<rftools:shapeCardItem:5>,<minecraft:dirt>],[<minecraft:dirt>,<minecraft:dirt>,<minecraft:dirt>]]);
+
+
 // ExU
 recipes.remove(<ExtraUtilities:enderQuarry>);
 recipes.addShaped(<ExtraUtilities:enderQuarry>, [
@@ -800,3 +806,8 @@ recipes.addShaped(<ExtraUtilities:unstableingot:2>,[[null, <ExtraUtilities:unsta
 
 // Koboldite - needed for end game & witchery, not obtainable due to mobs being far too laggy
 recipes.addShaped(<witchery:ingredient:150>,[[<magicalcrops:3CrucioEssence>,<magicalcrops:EarthEssence>,<magicalcrops:3CrucioEssence>],[<magicalcrops:NatureEssence>,<minecraft:iron_ingot>,<magicalcrops:NatureEssence>],[<magicalcrops:3CrucioEssence>,<magicalcrops:EarthEssence>,<magicalcrops:3CrucioEssence>]]);
+
+// Tinkers moss ball fix (9 moss stone currently create compressed cobble)
+recipes.removeShaped(<TConstruct:materials:6>);
+recipes.removeShapeless(<TConstruct:materials:6>);
+recipes.addShaped(<TConstruct:materials:6>,[[null,<minecraft:mossy_cobblestone>,null],[<minecraft:mossy_cobblestone>,<minecraft:mossy_cobblestone>,<minecraft:mossy_cobblestone>],[null,<minecraft:mossy_cobblestone>,null]]);

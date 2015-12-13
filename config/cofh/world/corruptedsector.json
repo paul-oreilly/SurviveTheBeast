@@ -73,5 +73,22 @@
         "dimensions": [
             13
         ]
+    },
+    "cs_dimensional_shards": {
+        "template": "uniform",
+        "block": "rftools:dimensionalShardBlock",
+        "clusterSize": 8,
+        "numClusters": 3,
+        "minHeight": 8,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            13
+        ]
     }
 }

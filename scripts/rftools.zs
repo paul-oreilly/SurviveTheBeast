@@ -15,3 +15,9 @@ recipes.addShaped(<rftools:shapeCardItem:2>, [
 	[<minecraft:redstone>,<BuildCraft|Builders:machineBlock:0>,<minecraft:redstone>],
 	[<BuildCraft|Core:markerBlock>,<minecraft:redstone>,<BuildCraft|Core:markerBlock>]
 ]);
+// Re-add the recipe to revert a clearing quarry back to a basic one
+recipes.addShaped(<rftools:shapeCardItem:2>, [
+        [<minecraft:dirt>,<minecraft:dirt>,<minecraft:dirt>],
+        [<minecraft:dirt>,<rftools:shapeCardItem:5>,<minecraft:dirt>],
+        [<minecraft:dirt>,<minecraft:dirt>,<minecraft:dirt>]
+]);

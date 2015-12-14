@@ -11,9 +11,9 @@ recipes.remove(<ExtraUtilities:angelRing:2>);
 recipes.remove(<ExtraUtilities:angelRing:3>);
 recipes.remove(<ExtraUtilities:angelRing:4>);
 recipes.addShaped(<ExtraUtilities:angelRing:0>, [
-    [<ore:ingotUnstable>, <Avaritia:Singularity:1>, <ore:ingotUnstable>],
-    [<Avaritia:Singularity:1>, <Avaritia:Endest_Pearl>, <Avaritia:Singularity:1>],
-    [<ore:ingotUnstable>, <Avaritia:Singularity:1>, <ore:ingotUnstable>]
+    [<ore:ingotUnstable>, <Avaritia:Endest_Pearl>, <ore:ingotUnstable>],
+    [<Avaritia:Endest_Pearl>, <Avaritia:Singularity:1>, <Avaritia:Endest_Pearl>],
+    [<ore:ingotUnstable>, <Avaritia:Endest_Pearl>, <ore:ingotUnstable>]
 ]);
 recipes.addShapeless(<ExtraUtilities:angelRing:1>, [<ExtraUtilities:angelRing:0>, <ore:craftingFeather>]);
 recipes.addShapeless(<ExtraUtilities:angelRing:1>, [<ExtraUtilities:angelRing:2>, <ore:craftingFeather>]);

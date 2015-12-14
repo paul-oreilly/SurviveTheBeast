@@ -62,7 +62,7 @@ recipes.addShaped(<gendustry:Replicator>, [
     [<ore:gearPlatinum>, <gendustry:GeneticsProcessor>, <ore:gearPlatinum>]
 ]);
 recipes.remove(<gendustry:Labware>);
-recipes.addShaped(<gendustry:Labware>, [
+recipes.addShaped(<gendustry:Labware> * 24, [
     [<ore:blockGlassHardened>, null, <ore:blockGlassHardened>],
     [<ore:blockGlassHardened>, null, <ore:blockGlassHardened>],
     [<ore:nuggetPlatinum>, <ore:nuggetPlatinum>, <ore:nuggetPlatinum>]

@@ -18,7 +18,7 @@ BigReactors-0.4.3A.jar
 binnie-mods-2.0-pre14.jar
 BiomesOPlenty-1.7.10-2.1.0.1462-universal.jar
 BloodMagic-1.7.10-1.3.3-13.jar
-Botania r1.7-237.jar
+Botania r1.8-241.jar
 buildcraft-7.1.13.jar
 buildcraft-compat-7.1.2.jar
 Carpenter's Blocks v3.3.8_dev_r2 - MC 1.7.10.jar

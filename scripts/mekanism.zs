@@ -84,3 +84,10 @@ recipes.addShaped(<MekanismGenerators:Reactor:1> * 4, [
     [<Mekanism:BasicBlock:8>, <ore:alloyUltimate>, <Mekanism:BasicBlock:8>],
     [<ore:plateDenseIridium>, <Mekanism:BasicBlock:8>, <ore:plateDenseIridium>]
 ]);
+mods.mekanism.Purification.addRecipe(<ImmersiveEngineering:ore:1>, <gas:oxygen>, <aobd:clumpAluminium>);
+mods.mekanism.Purification.addRecipe(<ReactorCraft:reactorcraft_block_ore:1>, <gas:oxygen>, <aobd:clumpUranium>);
+mods.mekanism.Purification.addRecipe(<gregtech:gt.blockores:945>, <gas:oxygen>, <aobd:clumpAntimony>);
+mods.mekanism.Purification.addRecipe(<gregtech:gt.blockores:1945>, <gas:oxygen>, <aobd:clumpAntimony>);
+mods.mekanism.Purification.addRecipe(<gregtech:gt.blockores:2945>, <gas:oxygen>, <aobd:clumpAntimony>);
+mods.mekanism.Purification.addRecipe(<gregtech:gt.blockores:4945>, <gas:oxygen>, <aobd:clumpAntimony>);
+mods.mekanism.Purification.addRecipe(<gregtech:gt.blockores:3945>, <gas:oxygen>, <aobd:clumpAntimony>);

@@ -80,6 +80,11 @@ mods.railcraft.Rolling.addShaped(<gregtech:gt.metaitem.01:22084> * 1, [
     [<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>],
     [<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>]
 ]);
+mods.railcraft.Rolling.addShaped(<gregtech:gt.metaitem.01:22084> * 1, [
+	[<ore:gemIridium>, <ore:gemIridium>, <ore:gemIridium>],
+    [<ore:gemIridium>, <ore:gemIridium>, <ore:gemIridium>],
+    [<ore:gemIridium>, <ore:gemIridium>, <ore:gemIridium>]
+]);
 mods.railcraft.Rolling.addShaped(<IC2:itemDensePlates:7> * 1, [
 	[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>],
     [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>],
@@ -94,4 +99,9 @@ mods.railcraft.Rolling.addShaped(<gregtech:gt.metaitem.01:22019> * 1, [
 	[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
     [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
     [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]
+]);
+mods.railcraft.Rolling.addShaped(<gregtech:gt.metaitem.01:17085> * 3, [
+	[<ore:ingotPlatinum>, <ore:ingotPlatinum>, null],
+    [<ore:ingotPlatinum>, <ore:ingotPlatinum>, null],
+    [null, null, null]
 ]);

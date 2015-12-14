@@ -54,3 +54,14 @@ recipes.remove(<rftools:spawnerBlock>);
 recipes.remove(<MineFactoryReloaded:machine.0:13>);
 recipes.remove(<RotaryCraft:rotarycraft_item_machine:75>);
 recipes.remove(<EnderIO:blockKillerJoe>);
+
+// Osmium and aluminium dust fix
+furnace.addRecipe(<Mekanism:Ingot:1>, <gregtech:gt.metaitem.01:2083>);
+mods.mekanism.Smelter.addRecipe(<gregtech:gt.metaitem.01:2083>, <Mekanism:Ingot:1>);
+furnace.addRecipe(<ImmersiveEngineering:metal:1>, <gregtech:gt.metaitem.01:2019>);
+mods.mekanism.Smelter.addRecipe(<gregtech:gt.metaitem.01:2019>, <ImmersiveEngineering:metal:1>);
+furnace.addRecipe(<gregtech:gt.metaitem.01:11028>, <gregtech:gt.metaitem.01:2028>);
+mods.mekanism.Smelter.addRecipe(<gregtech:gt.metaitem.01:2028>, <gregtech:gt.metaitem.01:11028>);
+
+// GT quartz fix
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:0>, [<gregtech:gt.metaitem.01:8516>]);

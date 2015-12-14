@@ -11,4 +11,4 @@ recipes.addShaped(<MineFactoryReloaded:machine.2:1>, [
     [<ore:blockGlassHardened>, <Quadrum:enderium_crystal>, <ore:blockGlassHardened>],
     [<Quadrum:bedrockium_component>, <Mekanism:MachineBlock2:13>, <Quadrum:bedrockium_component>]
 ]);
-recipes.remove(<MineFactoryReloaded:machine.2:10>);
+//recipes.remove(<MineFactoryReloaded:machine.2:10>);

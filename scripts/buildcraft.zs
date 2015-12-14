@@ -8,6 +8,6 @@ recipes.addShaped(<BuildCraft|Factory:miningWellBlock:0>, [
 recipes.remove(<BuildCraft|Builders:machineBlock:0>);
 recipes.addShaped(<BuildCraft|Builders:machineBlock:0>, [
     [<ore:plateDenseCobalt>, <ImmersiveEngineering:metalDevice:13>, <ore:plateDenseCobalt>],
-    [<ore:plateDenseTitanium>, <BuildCraft|Silicon:redstoneCrystal>, <ore:plateDenseTitanium>],
-    [<ore:plateDenseTitanium>, <BuildCraft|Factory:miningWellBlock>, <ore:plateDenseTitanium>]
+    [<ore:plateDenseAluminium>, <BuildCraft|Silicon:redstoneCrystal>, <ore:plateDenseAluminium>],
+    [<ore:plateDenseAluminium>, <BuildCraft|Factory:miningWellBlock>, <ore:plateDenseAluminium>]
 ]);

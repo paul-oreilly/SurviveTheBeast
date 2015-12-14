@@ -63,3 +63,10 @@ mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarryUpgrade>, [
 ]);
 // Alt method to get mobis stable ingots for extra utilities 
 recipes.addShaped(<ExtraUtilities:unstableingot:2>,[[null, <ExtraUtilities:unstableingot:1>,null],[<ExtraUtilities:unstableingot:1>,<minecraft:nether_star>,<ExtraUtilities:unstableingot:1>],[null,<ExtraUtilities:unstableingot:1>,null]]);
+
+// Alt recipe for the deep dark portal
+recipes.addShaped(<ExtraUtilities:dark_portal>,[
+	[<rftools:infusedDiamondItem>,<minecraft:diamond_pickaxe>,<rftools:infusedDiamondItem>],
+	[<rftools:infusedDiamondItem>,<thecorruptedsector:miningPortal>,<rftools:infusedDiamondItem>],
+	[<rftools:infusedDiamondItem>,<ExtraUtilities:cobblestone_compressed:5>,<rftools:infusedDiamondItem>]
+]);
